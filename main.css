@@ -1,0 +1,124 @@
+@import url('https://fonts.google.com/specimen/Outfit');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --mainBG : hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    color: var(--Softblue);
+    background-color: var(--mainBG);
+}
+
+main{
+    background-color: var(--cardBG);
+    height: 550px;
+    width: 320px;
+    align-items: center;
+    margin:70px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 18px;
+    color: var(--White);
+    text-align: left;
+    margin: 15px auto auto 15px;
+}
+
+p{
+    font-size: 16px;
+    margin: 15px 15px auto 15px;
+    text-align: left;
+    
+}
+
+img{
+    height:15px;
+    width:15px;
+    display:flex;
+    flex-direction:row;
+    margin: 0px 7px 0px 15px;
+    
+}
+h2{
+    font-size: 13px;
+    text-align: left ;
+    display:flex;
+    flex-direction:row;
+    margin:20px auto ;
+}
+
+h3{
+    display: flex;
+    font-size: 13px;
+    margin: 10px;
+    text-align: left;
+    color: var(--Softblue);
+}
+
+hr{
+    width: 90%;
+    margin: auto auto auto 10px;
+    border: 0.5px solid  var(--line);
+}
+
+solid{
+    color: var(--White);
+}
+/*------------------Image Containers-----------*/
+
+.image-container{
+    height: 290px;
+    width: 290px;
+    padding:20px 10px 0px 10px;
+
+}
+
+.main-image{
+    height:100%;
+    width: 100%;
+    
+    background-image: url(/nft-preview-card-component-main/nft-preview-card-component-main/images/image-equilibrium.jpg);
+    background-size:contain;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+
+.text-container{
+    padding: 10px 10px 10px 10px;
+}
+
+*--------------- footer ---------------*/
+footer{
+    margin-bottom: 20px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*--------------- MEDIA QUERIS ---------------*/
+@media screen and (min-width: 1200px){
+    main{
+        width: 340px;
+        height: 520px;
+    }
+}
+
