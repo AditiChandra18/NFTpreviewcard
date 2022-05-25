@@ -94,7 +94,7 @@ solid{
     height:100%;
     width: 100%;
     
-    background-image: url(/images/image-equilibrium.jpg);
+    background-image: url(images/image-equilibrium.jpg);
     background-size:contain;
     border-radius: 10px;
     margin: auto;
