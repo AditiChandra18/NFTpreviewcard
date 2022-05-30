@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+:hover { color: #00fff7; cursor: pointer; }
+
 :root{
     --Softblue: hsl(215, 51%, 70%);
     --Cyan: hsl(178, 100%, 50%);
